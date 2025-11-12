@@ -4,7 +4,7 @@ function App() {
   return (
     <iframe
       title="Power BI Report"
-      src="https://app.powerbi.com/view?r=eyJrIjoiNTE0MDkzYWQtNGQ2OC00Zjg3LTkxODktN2U1NDQzMzkwZTZhIiwidCI6ImJmNDQ1ODhhLTk2NDQtNGZmMC05ZjRiLTU4ZGMwMzdjZDJmNiJ9"
+       src="/api/powerbi"
       style={{
         position: 'fixed',
         top: 0,
