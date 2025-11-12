@@ -1,25 +1,17 @@
-import './App.css'
-
-function App() {
-  return (
-    <iframe
-      title="Power BI Report"
-       src="/api/powerbi"
-      style={{
-        position: 'fixed',
-        top: 0,
-        left: 0,
-        width: '100vw',
-        height: '100vh',
-        border: 'none',
-        margin: 0,
-        padding: 0,
-        overflow: 'hidden',
-      }}
-      frameBorder="0"
-      allowFullScreen
-    ></iframe>
-  )
-}
-
-export default App
+<iframe
+  title="Power BI Report"
+  src="/api/powerbi"
+  style={{
+    position: 'fixed',
+    top: 0,
+    left: 0,
+    width: '100vw',
+    height: '100vh',
+    border: 'none',
+    margin: 0,
+    padding: 0,
+    overflow: 'hidden',
+  }}
+  frameBorder="0"
+  allowFullScreen
+></iframe>
