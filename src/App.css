@@ -49,3 +49,64 @@ html, body, #root {
   width: 100%;
   overflow: hidden;
 }
+
+
+/* === Estilo da Página Inicial === */
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+  color: white;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.home-button {
+  background-color: white;
+  color: #1e3a8a;
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #e5e7eb;
+}
+
+
+/* Estilos existentes... */
+
+.home-input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  margin-bottom: 1rem;
+  width: 250px;
+  text-align: center;
+}
+
+.home-error {
+  color: #ff6b6b;
+  margin-top: 10px;
+  font-size: 0.95rem;
+}
