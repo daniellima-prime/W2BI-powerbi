@@ -1,6 +1,6 @@
 <iframe
   title="Power BI Report"
-  src="/api/powerbi"
+  src="https://app.powerbi.com/view?r=eyJrIjoiNTE0MDkzYWQtNGQ2OC00Zjg3LTkxODktN2U1NDQzMzkwZTZhIiwidCI6ImJmNDQ1ODhhLTk2NDQtNGZmMC05ZjRiLTU4ZGMwMzdjZDJmNiJ9"
   style={{
     position: 'fixed',
     top: 0,
