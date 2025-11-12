@@ -1,6 +1,4 @@
 // src/App.tsx
-import React from 'react'
-
 function App() {
   return (
     <iframe
@@ -24,3 +22,4 @@ function App() {
 }
 
 export default App
+
