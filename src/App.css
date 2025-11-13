@@ -1,71 +1,18 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* previne rolagem lateral */
+  overflow-x: hidden;
 }
-
-.circulo {
-  width: 300px;         /* metade da largura de um círculo completo */
-  height: 600px;
-  background-color: #c9a743;
-  border-radius: 300px 0 0 300px;  /* arredonda só o lado esquerdo */
-  position: absolute;
-  top: 0;
-  right: 0px;              /* encosta na lateral esquerda */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 
 html, #root {
-  margin: 0;
-  padding: 0;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
-
 /* === Estilo da Página Inicial === */
 .home-container {
+  position: relative; /* cria contexto para o círculo */
   width: 100%;
   height: 100vh;
   display: flex;
@@ -75,6 +22,13 @@ html, #root {
   background: white;
   color: #091930;
   text-align: center;
+  overflow: hidden;
+}
+
+/* garante que os textos fiquem acima do círculo */
+.home-container * {
+  position: relative;
+  z-index: 2;
 }
 
 .home-title {
@@ -82,16 +36,21 @@ html, #root {
   margin-bottom: 1.5rem;
 }
 
-.home-subtitle {
-  font-size: 1.1rem;
-  margin-bottom: 2rem;
-  opacity: 0.9;
+.home-input {
+  padding: 12px 16px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #091930;
+  outline: none;
+  margin-bottom: 1rem;
+  width: 250px;
+  text-align: center;
 }
 
 .home-button {
   background-color: white;
   color: #091930;
-  border: 1px solid;
+  border: 1px solid #091930;
   padding: 12px 32px;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -102,26 +61,43 @@ html, #root {
 
 .home-button:hover {
   background-color: #091930;
-  color:  white;
-}
-
-
-/* Estilos existentes... */
-
-.home-input {
-  padding: 12px 16px;
-  font-size: 1rem;
-  border-radius: 6px;
-  border: 1px solid;
-  outline: none;
-  margin-bottom: 1rem;
-  width: 250px;
-  text-align: center;
-
+  color: white;
 }
 
 .home-error {
   color: #ff6b6b;
   margin-top: 10px;
   font-size: 0.95rem;
+}
+
+/* === Círculo decorativo === */
+.circulo {
+  width: 700px;
+  height: 700px;
+  background-color: #c9a743;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.7;
+  filter: blur(2px);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  animation: pingEcentraliza 1.5s linear forwards;
+}
+
+/* === Animação linear do círculo === */
+@keyframes pingEcentraliza {
+  0% {
+    bottom: 50vh;
+    right: -230px;
+  }
+  50% {
+    bottom: 0vh;
+    right: -100px;
+  }
+  100% {
+    bottom: 15vh;
+    right: 180px;
+  }
 }
