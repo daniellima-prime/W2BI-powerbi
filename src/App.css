@@ -109,7 +109,8 @@ html, #root {
 }
 
 .home-button:hover {
-  background-color: #e5e7eb;
+  background-color: #091930;
+  color:  white;
 }
 
 
