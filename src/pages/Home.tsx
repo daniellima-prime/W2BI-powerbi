@@ -33,7 +33,7 @@ function Home() {
       />
 
       <button className="home-button" onClick={handleAcessar}>
-        Dash Modelos
+        Ir para
       </button>
 
       {erro && <p className="home-error">{erro}</p>}
