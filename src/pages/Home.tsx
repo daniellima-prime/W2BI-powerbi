@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "../App.css"; // ou o caminho do seu CSS
+import "../App.css"; // Certifique-se que App.css contém a classe .circulo
 
 function Home() {
   const navigate = useNavigate();
@@ -18,6 +18,9 @@ function Home() {
 
   return (
     <div className="home-container">
+      {/* Círculo no topo */}
+      <div className="circulo"></div>
+
       <h1 className="home-title">Bem-vindo ao Painel Power BI</h1>
       <p className="home-subtitle">Insira a senha para acessar o relatório</p>
 

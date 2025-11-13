@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Report from "./pages/Report";
+import "./App.css"; // Corrigido para o caminho correto
 
 function App() {
   return (
@@ -14,5 +15,3 @@ function App() {
 }
 
 export default App;
-
-
