@@ -18,15 +18,23 @@ function Home() {
 
   return (
     <div className="home-container">
+      <div className="fundo"></div>
       {/* Círculo no topo */}
       <div className="circulo"></div>
 
-      <h1 className="home-title">Bem-vindo ao Painel Power BI</h1>
+      <h1 className="home-title">Bem-vindo a Works2BI</h1>
       <p className="home-subtitle">Insira a senha para acessar o relatório</p>
 
       <input
         type="password"
-        placeholder="Digite a senha"
+        placeholder="e-mail"
+        value={senha}
+        onChange={(e) => setSenha(e.target.value)}
+        className="home-input"
+      />
+      <input
+        type="password"
+        placeholder="senha"
         value={senha}
         onChange={(e) => setSenha(e.target.value)}
         className="home-input"

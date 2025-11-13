@@ -11,19 +11,11 @@ html, body {
   border-radius: 300px 0 0 300px;  /* arredonda só o lado esquerdo */
   position: absolute;
   top: 0;
-  right: 0;              /* encosta na lateral esquerda */
+  right: 0px;              /* encosta na lateral esquerda */
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10;
-}
-
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
 }
 
 .logo {
