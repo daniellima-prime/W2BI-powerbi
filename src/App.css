@@ -39,14 +39,14 @@ html, #root {
 }
 
 .home-input {
-  padding: 12px 16px;
+  padding: 9px 16px;
   font-size: 1rem;
-  border-radius: 6px;
+  border-radius: 4px;
   border: 1px solid #091930;
   outline: none;
-  margin-bottom: 1rem;
-  width: 250px;
-  top: -20%;
+  margin-bottom: 0.2rem;
+  width: 20%;
+  top: -25%;
   left:-27%;
   text-align: center;
 }
@@ -55,19 +55,20 @@ html, #root {
   background-color: white;
   color: #091930;
   border: 1px solid #091930;
-  padding: 3px 118px;
-  border-radius: 8px;
+  padding: 0.2% 9.3%;
+  border-radius: 4px;
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  top: -20%;
+  top: -25%;
   left:-27%;
 }
 
 .home-button:hover {
   background-color: #091930;
   color: white;
+  border: 1px solid white;
 }
 
 .home-error {
