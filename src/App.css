@@ -23,6 +23,7 @@ html, #root {
   color: #091930;
   text-align: center;
   overflow: hidden;
+  top: -10px;
 }
 
 /* garante que os textos fiquem acima do círculo */
