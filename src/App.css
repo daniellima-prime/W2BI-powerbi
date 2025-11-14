@@ -72,32 +72,33 @@ html, #root {
 
 /* === Círculo decorativo === */
 .circulo {
-  width: 700px;
-  height: 700px;
+  width: 50vw;      /* 50% da largura da tela */
+  height: 50vw;     /* mantém formato perfeito de círculo */
   background-color: #c9a743;
   border-radius: 50%;
   position: absolute;
-  bottom: 0;
-  right: 0;
+
+  bottom: 5vh;
+  right: -230px;
+
+
   z-index: 1;
-  opacity: 0.7;
+  opacity: 1;
   filter: blur(2px);
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
-  animation: pingEcentraliza 1.5s linear forwards;
+  animation: pingEcentraliza 3s linear forwards;
 }
 
 /* === Animação linear do círculo === */
 @keyframes pingEcentraliza {
   0% {
-    bottom: 50vh;
-    right: -230px;
+    transform: translate(100px, -200px);;
   }
   50% {
-    bottom: 0vh;
-    right: -100px;
+    transform: translate(0px, 0px);
   }
   100% {
-    bottom: 15vh;
-    right: 180px;
+    transform: translate(-100px, -150px);
   }
 }
+
