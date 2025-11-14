@@ -89,6 +89,7 @@ html, #root {
   animation: pingEcentraliza 3s linear forwards;
 }
 
+
 /* === Animação linear do círculo === */
 @keyframes pingEcentraliza {
   0% {
@@ -100,5 +101,14 @@ html, #root {
   100% {
     transform: translate(-100px, -150px);
   }
+}
+
+img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50vw;
+  height: auto; /* mantém proporção correta */
+  z-index: 5;
 }
 

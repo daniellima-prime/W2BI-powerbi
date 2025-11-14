@@ -23,19 +23,25 @@ function Home() {
     
     <div className="home-container">
       <div className="circulo"></div>
+      
+      <img 
+        src="https://i.imgur.com/Alemrkx.png" 
+        alt="Logo Works2BI"
+        className="home-logo"
+      />
 
-      <h1 className="home-title">Bem-vindo a Works2BI</h1>
+      {/*<h1 className="home-title">Bem-vindo a Works2BI</h1>*/}
 
       <input
         type="email"
-        placeholder="e-mail"
+        placeholder="Entre com seu e-mail"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
         className="home-input"
       />
       <input
         type="password"
-        placeholder="senha"
+        placeholder="Entre com sua senha"
         value={senha}
         onChange={(e) => setSenha(e.target.value)}
         className="home-input"
