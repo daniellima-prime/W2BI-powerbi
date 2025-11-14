@@ -12,18 +12,19 @@ html, #root {
 
 /* === Estilo da Página Inicial === */
 .home-container {
-  position: relative; /* cria contexto para o círculo */
-  width: 100%;
+  width: 100vw;
   height: 100vh;
+
+  background-image: url("https://works2bi.com.br/wp-content/uploads/2025/09/Dobra-01-1-copiar-scaled-e1756840702528-2048x1174-1.webp");
+  background-size: cover;       /* cobre toda a tela */
+  background-position: center;  /* centraliza */
+  background-repeat: no-repeat; /* não repetir */
+  background-attachment: fixed; /* opcional - efeito parallax */
+  
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: white;
-  color: #091930;
-  text-align: center;
-  overflow: hidden;
-  top: -10px;
 }
 
 /* garante que os textos fiquem acima do círculo */
@@ -45,6 +46,8 @@ html, #root {
   outline: none;
   margin-bottom: 1rem;
   width: 250px;
+  top: -20%;
+  left:-27%;
   text-align: center;
 }
 
@@ -52,12 +55,14 @@ html, #root {
   background-color: white;
   color: #091930;
   border: 1px solid #091930;
-  padding: 12px 32px;
+  padding: 3px 118px;
   border-radius: 8px;
   font-size: 1.1rem;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
+  top: -20%;
+  left:-27%;
 }
 
 .home-button:hover {
@@ -104,12 +109,27 @@ html, #root {
   }
 }
 
+.fundo2bi img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(112%, 22.5%); /* centraliza de verdade */
+  
+  width: 11.5vw;
+  height: 15.1vh; /* mantém proporção */
+  
+  z-index: 4;
+}
+
+
+
 img {
   position: absolute;
   bottom: 0;
   right: 0;
   width: 50vw;
   height: auto; /* mantém proporção correta */
-  z-index: 5;
+  z-index: 6;
 }
+
 

@@ -22,13 +22,24 @@ function Home() {
   return (
     
     <div className="home-container">
-      <div className="circulo"></div>
-      
-      <img 
-        src="https://i.imgur.com/Alemrkx.png" 
-        alt="Logo Works2BI"
-        className="home-logo"
-      />
+      {/*<div className="circulo"></div>*/}
+
+      {/*
+        <div className="fundo2bi">
+          <img  
+            src="https://i.imgur.com/2kBIYxf.png" 
+            alt="Logo Works2BI"
+            className="home-logo"
+          />
+        </div>
+      */}
+
+      {/*<img 
+          src="https://i.imgur.com/ziZgBmD.png" 
+          alt="Logo Works2BI"
+          className="home-logo"
+        />
+      */}
 
       {/*<h1 className="home-title">Bem-vindo a Works2BI</h1>*/}
 
