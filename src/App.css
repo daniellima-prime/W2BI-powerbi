@@ -180,9 +180,14 @@ html, #root {
 }
 
 .IconDashMenu:hover img {
-  transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.texto-Icon1{
+  position: relative;
 }
 
 .IconDashMenu2 img {
@@ -200,7 +205,67 @@ html, #root {
 }
 
 .IconDashMenu2:hover img {
-  transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.IconDashMenu3 img {
+  position: absolute;
+  top: 28%;
+  left: 23.5%;
+  transform: translate(112%, 22.5%);
+  
+  width: 14vw;
+  height: 17.5vh;
+  
+  z-index: 4;
+
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+
+.IconDashMenu3:hover img {
+  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.IconDashMenu4 img {
+  position: absolute;
+  top: 28%;
+  left: 38%;
+  transform: translate(112%, 22.5%);
+  
+  width: 14vw;
+  height: 17.5vh;
+  
+  z-index: 4;
+
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+
+.IconDashMenu4:hover img {
+  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.IconDashMenu5 img {
+  position: absolute;
+  top: 28%;
+  left: 52.5%;
+  transform: translate(112%, 22.5%);
+  
+  width: 14vw;
+  height: 17.5vh;
+  
+  z-index: 4;
+
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+
+.IconDashMenu5:hover img {
+  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }

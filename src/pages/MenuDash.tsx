@@ -34,6 +34,27 @@ function Home() {
           style={{ cursor: "pointer" }} 
         />
       </div>
+      <div className="IconDashMenu3" onClick={handleImagemClick}>
+        <img  
+          src="https://i.imgur.com/HAlQoeU.png" 
+          alt="CapaDashMenu"
+          style={{ cursor: "pointer" }} 
+        />
+      </div>
+      <div className="IconDashMenu4" onClick={handleImagemClick}>
+        <img  
+          src="https://i.imgur.com/HAlQoeU.png" 
+          alt="CapaDashMenu"
+          style={{ cursor: "pointer" }} 
+        />
+      </div>
+      <div className="IconDashMenu5" onClick={handleImagemClick}>
+        <img  
+          src="https://i.imgur.com/HAlQoeU.png" 
+          alt="CapaDashMenu"
+          style={{ cursor: "pointer" }} 
+        />
+      </div>
 
       <div className="logoW2bi">
         <img src="https://i.imgur.com/TKCH3mQ.png" alt="Logo W2BI" />
