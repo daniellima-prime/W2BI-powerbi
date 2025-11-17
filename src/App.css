@@ -181,6 +181,8 @@ html, #root {
 
 .IconDashMenu:hover img {
   transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }
 
 .IconDashMenu2 img {
@@ -199,6 +201,8 @@ html, #root {
 
 .IconDashMenu2:hover img {
   transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+  z-index: 5;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }
 
 img {
