@@ -4,13 +4,13 @@ import "../App.css";
 
 function Home() {
   const navigate = useNavigate();
-  const [senha, setSenha] = useState("");
-  const [erro, setErro] = useState("");
+  const [senha, setSenha] = useState<string>("");
+  const [erro, setErro] = useState<string>("");
 
   const senhaCorreta = "teste01";
 
   // Função que valida senha para botão OU clique da imagem
-  const validarAcesso = (senhaDigitada) => {
+  const validarAcesso = (senhaDigitada: string) => {
     if (senhaDigitada === senhaCorreta) {
       navigate("/W2biMod");
     } else {
@@ -33,20 +33,19 @@ function Home() {
 
   return (
     <div className="home-container_MenuDash">
-      
       <div className="IconDashMenu" onClick={handleImagemClick}>
-        <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+        <img 
+          src="https://i.imgur.com/HAlQoeU.png"
           alt="CapaDashMenu"
-          style={{ cursor: "pointer" }} 
+          style={{ cursor: "pointer" }}
         />
       </div>
 
       <div className="IconDashMenu2" onClick={handleImagemClick}>
-        <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+        <img 
+          src="https://i.imgur.com/HAlQoeU.png"
           alt="CapaDashMenu"
-          style={{ cursor: "pointer" }} 
+          style={{ cursor: "pointer" }}
         />
       </div>
 
@@ -54,7 +53,8 @@ function Home() {
         <img src="https://i.imgur.com/TKCH3mQ.png" alt="Logo W2BI" />
       </div>
 
-      {/*<input
+      {/* 
+      <input
         type="password"
         placeholder="Entre com sua senha"
         value={senha}
