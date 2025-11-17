@@ -1,4 +1,4 @@
-function W2biMod() {
+function Report() {
   return (
     <iframe
       title="Power BI Report"
@@ -17,4 +17,4 @@ function W2biMod() {
   );
 }
 
-export default W2biMod;
+export default Report;
