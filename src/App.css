@@ -16,6 +16,23 @@ html, #root {
   height: 100vh;
 
   background-image: url("https://works2bi.com.br/wp-content/uploads/2025/09/Dobra-01-1-copiar-scaled-e1756840702528-2048x1174-1.webp");
+  /*background-image: url("https://i.imgur.com/AMO7Nfj.jpeg");*/
+  background-size: cover;       /* cobre toda a tela */
+  background-position: center;  /* centraliza */
+  background-repeat: no-repeat; /* não repetir */
+  background-attachment: fixed; /* opcional - efeito parallax */
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* === Estilo da Página Inicial === */
+.home-container_MenuDash {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://i.imgur.com/6AtPXiS.png");
   background-size: cover;       /* cobre toda a tela */
   background-position: center;  /* centraliza */
   background-repeat: no-repeat; /* não repetir */
@@ -72,6 +89,43 @@ html, #root {
   border: 1px solid white;
 }
 
+.input_dashMenuPrime {
+  position: absolute;
+  padding: 0.5% 0.5%;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #091930;
+  outline: none;
+  margin-bottom: 0.2rem;
+  width: 10%;
+  top: 60%;
+  left:10%;
+  text-align: center;
+}
+
+.button_dashMenuPrime {
+  position: absolute;
+  background-color: white;
+  color: #091930;
+  border: 1px solid #091930;
+  padding: 0.5% 0.5%;
+  width: 3%;
+  height: 4%;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  top: 60%;
+  left:21.1%;
+}
+
+.button_dashMenuPrime:hover {
+  background-color: #091930;
+  color: white;
+  border: 1px solid white;
+}
+
 .home-error {
   color: #ff6b6b;
   margin-top: 10px;
@@ -111,19 +165,41 @@ html, #root {
   }
 }
 
-.fundo2bi img {
+.IconDashMenu img {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(112%, 22.5%); /* centraliza de verdade */
+  top: 28%;
+  left: -5.6%;
+  transform: translate(112%, 22.5%);
   
-  width: 11.5vw;
-  height: 15.1vh; /* mantém proporção */
+  width: 14vw;
+  height: 17.5vh;
   
   z-index: 4;
+
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease;
 }
 
+.IconDashMenu:hover img {
+  transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+}
 
+.IconDashMenu2 img {
+  position: absolute;
+  top: 28%;
+  left: 9%;
+  transform: translate(112%, 22.5%);
+  
+  width: 14vw;
+  height: 17.5vh;
+  
+  z-index: 4;
+
+  transition: transform 0.25s ease, width 0.25s ease, height 0.25s ease;
+}
+
+.IconDashMenu2:hover img {
+  transform: translate(112%, 22.5%) scale(1.15); /* aumenta 15% */
+}
 
 img {
   position: absolute;
@@ -132,6 +208,13 @@ img {
   width: 50vw;
   height: auto; /* mantém proporção correta */
   z-index: 6;
+}
+
+.logoW2bi img{
+  position: absolute;
+  width: 10%;
+  top: 2%;
+  left: 2%;
 }
 
 

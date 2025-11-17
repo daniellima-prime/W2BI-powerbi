@@ -13,7 +13,7 @@ function Home() {
     const senhaCorreta = "12345";
 
     if (email === emailCorreto && senha === senhaCorreta) {
-      navigate("/report");
+      navigate("/MenuDash");
     } else {
       setErro("E-mail ou senha incorretos. Tente novamente.");
     }
