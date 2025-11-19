@@ -63,7 +63,7 @@ html, #root {
   outline: none;
   margin-bottom: 0.2rem;
   width: 20%;
-  top: -25%;
+  top: -22%;
   left:-27%;
   text-align: center;
 }
@@ -79,7 +79,7 @@ html, #root {
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
-  top: -25%;
+  top: -22%;
   left:-27%;
 }
 
@@ -180,14 +180,10 @@ html, #root {
 }
 
 .IconDashMenu:hover img {
-  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(2); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
   opacity: 1;
-}
-
-.texto-Icon1{
-  position: relative;
 }
 
 .IconDashMenu2 img {
@@ -205,7 +201,7 @@ html, #root {
 }
 
 .IconDashMenu2:hover img {
-  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(2); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }
@@ -225,7 +221,7 @@ html, #root {
 }
 
 .IconDashMenu3:hover img {
-  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(2); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }
@@ -245,7 +241,7 @@ html, #root {
 }
 
 .IconDashMenu4:hover img {
-  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(2); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }
@@ -265,7 +261,7 @@ html, #root {
 }
 
 .IconDashMenu5:hover img {
-  transform: translate(112%, 22.5%) scale(1.50); /* aumenta 15% */
+  transform: translate(112%, 22.5%) scale(2); /* aumenta 15% */
   z-index: 5;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
 }

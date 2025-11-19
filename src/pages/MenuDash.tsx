@@ -19,38 +19,39 @@ function Home() {
 
   return (
     <div className="home-container_MenuDash">
-      <div className="IconDashMenu" onClick={handleImagemClick}>
-        <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
-          alt="CapaDashMenu"
-          style={{ cursor: "pointer" }} 
-        />
-      </div>
+
+        <div className="IconDashMenu" onClick={handleImagemClick}>
+          <img  
+            src="https://i.imgur.com/NrwwGjF.jpeg" 
+            alt="CapaDashMenu"
+            style={{ cursor: "pointer" }} 
+          />
+        </div>
 
       <div className="IconDashMenu2" onClick={handleImagemClick}>
         <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+          src="https://i.imgur.com/4Qs2fTq.jpeg" 
           alt="CapaDashMenu"
           style={{ cursor: "pointer" }} 
         />
       </div>
       <div className="IconDashMenu3" onClick={handleImagemClick}>
         <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+          src="https://i.imgur.com/HhDDBbp.jpeg" 
           alt="CapaDashMenu"
           style={{ cursor: "pointer" }} 
         />
       </div>
       <div className="IconDashMenu4" onClick={handleImagemClick}>
         <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+          src="https://i.imgur.com/OJX8c5p.jpeg" 
           alt="CapaDashMenu"
           style={{ cursor: "pointer" }} 
         />
       </div>
       <div className="IconDashMenu5" onClick={handleImagemClick}>
         <img  
-          src="https://i.imgur.com/HAlQoeU.png" 
+          src="https://i.imgur.com/GUVrTgP.jpeg" 
           alt="CapaDashMenu"
           style={{ cursor: "pointer" }} 
         />
