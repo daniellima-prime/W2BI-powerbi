@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import W2biMod from "./pages/W2biMod";
+import W2biMod from "./pages/DashGestaoNotas";
 import MenuDash from "./pages/MenuDash"; // <-- IMPORTOU A NOVA PÁGINA
 import "./App.css";
 
